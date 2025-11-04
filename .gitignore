@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# VSCode and PyCharm configs
+.vscode/
+.idea/
+
+# Environment variable files
+.env
+*.env
+
+# Model files & pickle files
+*.pkl
+*.joblib
+*.h5
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Flask cache files
+instance/
+*.log
+
+# CSVs or large datasets (optional)
+*.csv
+
+# Python egg
+*.egg-info/
+dist/
+build/
+
+# Node modules if frontend involved
+node_modules/
+
+# Coverage / testing
+htmlcov/
+.coverage
+coverage.xml
+.cache
+.pytest_cache/
+
+# Frontend build (if using React/Vite)
+build/
+dist/
